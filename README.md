@@ -9,14 +9,6 @@ K MEANS
 SELF ORGANISING MAPS
 REINFORCEMENT LEARNING
 
-
-
-
-
-
-
-
-
 ADALINE
 1. Initialise weights (W1...Wn) and threshold (W0)
 2.  	Set all weights and threshold to small random bipolar random values
@@ -31,23 +23,7 @@ Wit+1()=Wi(t)+ηd(t)−{i=1n}∑Wi(t)Xi(t)Xi(t)
 Repeat until the desired outputs and the actual network outputs are all equal for all the input vectors of the training set.
 
 
-
-
-
-
-
-
-
-
-
-
-GENETIC ALGORITHM
-
-
-
-
-
-
+GENETIC ALGORITHM.
 
 STEPS
 At the beginning of a run of a genetic algorithm a large population of random chromosomes is created. Each one, when decoded will represent a different solution to the problem at hand. Let's say there are N chromosomes in the initial population. Then, the following steps are repeated until a solution is found
@@ -59,11 +35,6 @@ Repeat step 2, 3, 4 until a new population of N members has been created.
 
 
 BACKPROPAGATION
-Flow chart
-
-
-
-
 
 Pseudo code
 Initialize all weights with small random numbers, typically between -1 and 1 
@@ -117,17 +88,7 @@ For i from 1 to k
 Replace mi with the mean of all of the samples for cluster i
 end_for
 
-
-
-
 SELF ORGANISING MAPS
-Flow chart
-
-
-
-
-
-
 
 Pseudo code
 Initialize weights
@@ -157,11 +118,6 @@ Do forever:
     Receive immediate reward r
     Observe the new state s'
     Update the table entry for Q(s, a) a
-
-
-
-
-
 This procedural approach can be translated into steps as follows:
 1. Initialize the Q-values table, Q(s, a).
 2. Observe the current state, s.
